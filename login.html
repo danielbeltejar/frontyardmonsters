@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Frontyard Monsters</title>
+  <link rel="icon" type="image/png" href="/assets/images/icon.png">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex justify-center items-center h-screen">
+        <div class="flex flex-col items-center max-w-2xl lg:max-w-sm w-full">
+            <a href="/index.html">
+                <img src="/assets/images/logo_artwork_letters.png" alt="Logo" class="h-32 mb-8">                    
+            </a>
+            <div class="bg-white p-8 rounded shadow-lg max-w-2xl lg:max-w-sm w-full">
+                <h1 class="text-2xl mb-4">Access account</h1>
+                <form action="/v1/account/login" method="POST">
+                    <div class="mb-4">
+                        <label for="username" class="block mb-2">Username</label>
+                        <input type="text" id="username" name="username" required class="w-full p-2 border border-gray-300 rounded">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="block mb-2">Password</label>
+                        <input type="password" id="password" name="password" required class="w-full p-2 border border-gray-300 rounded">
+                    </div>
+                    <button type="submit" class="w-full bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600">Login</button>
+                    </form>
+                <p class="text-center mt-4">Don't have an account? <a href="/register.html" class="text-red-500">Register</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+  
+</html>

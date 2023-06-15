@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
 	<title>Play Frontyard Monsters</title>
 	<link rel="icon" type="image/png" href="/assets/images/icon.png">
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css">
+	<script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/gh/duyplus/fontawesome-pro/css/all.min.css" rel="stylesheet"/>
 	<style>
 		.bg-button {
@@ -44,55 +44,42 @@
 	</script>
 </head>
 <body class="bg-gray-200">
-	<header class="header flex justify-between items-center bg-gray-300 py-4 px-8 lg:pl-64 lg:pr-64">
+	<header class="header flex justify-between items-center bg-gray-300 py-4 px-8 lg:pl-96 lg:pr-96">
 		<div class="flex items-center">
 			<img src="assets/images/logo_artwork_letters.png" alt="Logo" class="h-24">
 		</div>
 		<div class="flex items-center">
 			<a href="https://discord.gg/RDAh9gwG2H">
-				<button class="bg-purple-600 text-white font-bold py-2 px-5 mr-2 rounded text-4xl lg:text-base">
+				<button class="bg-purple-600 text-white font-bold py-2 px-5 mr-2 rounded text-l lg:text-base">
 					<i class="fa-brands fa-discord"></i>
 					<span>Discord</span>
 				</button>
-			</a>
-			<a href="/login.html">
-				<button class="bg-button text-white font-bold py-2 px-2 mr-2 rounded text-4xl lg:text-base">
-					<span style="text-shadow: 
-		 -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;">
-						Login
-					 </span>
-				</button>
 			</a>		
-			<a href="/register.html">
-				<button class="bg-button text-white font-bold py-2 px-2 mr-2 rounded text-4xl lg:text-base">
-					<span style="text-shadow: 
-		 -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;">
-						Create account
-					 </span>
-				</button>
-			</a>			
 		</div>
 	</header>
-	<div class="container mx-auto py-8 px-4 mt-10 lg:h-screen">
-        <div class="unity-game">
-            <iframe src="https://app.fym.danielbeltejar.es" scrolling="no" frameborder="0"></iframe>
-        </div>	
-    </div>
+	<div class="container mx-auto py-8 px-4 mt-10 flex justify-center relative">
+		<a href="https://app.fym.danielbeltejar.es/" target="_blank">
+			<img class="blur-sm" src="assets/images/thumbnail.jpg" alt="Blurred Image">
+			<div class="absolute inset-0 flex justify-center items-center">
+				<img class="" src="assets/images/play_button_128px.png" alt="Overlay Image">
+			</div>
+		</a>
+	</div>
 	<div class="container mx-auto py-8 px-4 mt-10">
 		<div>
-			<p class="text-lg text-center text-gray-800 text-4xl lg:text-base">
+			<p class="text-lg text-center text-gray-800 text-xl lg:text-base">
 				Introducing Frontyard Monsters: Revive the Classic Game of Strategy and Domination!
 			</p>
-			<p class="mt-4 text-center text-gray-600 text-4xl lg:text-base">
+			<p class="mt-4 text-center text-gray-600 text-xl lg:text-base">
 				Embark on an epic adventure with <a href="https://fym.danielbeltejar.es" class="text-blue-500 underline" target="_blank" rel="noopener noreferrer">Frontyard Monsters</a>, a modern remake of the beloved classic, Backyard Monsters. Immerse yourself in a world of strategy, base building, and fierce battles as you command your army of unique and fearsome creatures.
 			</p>
-			<p class="mt-4 text-center text-gray-600 text-4xl lg:text-base">
+			<p class="mt-4 text-center text-gray-600 text-xl lg:text-base">
 				With stunning graphics, immersive gameplay, and innovative features, Frontyard Monsters brings a fresh twist to the strategy genre. Construct and fortify your base, train powerful monsters, and form alliances to dominate your foes. Unleash devastating attacks and devise cunning tactics to outsmart your opponents.
 			</p>
-			<p class="mt-4 text-center text-gray-600 text-4xl lg:text-base">
+			<p class="mt-4 text-center text-gray-600 text-xl lg:text-base">
 				<strong>Key Features:</strong>
 			</p>
-			<ul class="mt-2 text-center text-gray-600 text-4xl lg:text-base">
+			<ul class="mt-2 text-center text-gray-600 text-xl lg:text-base">
 				<li>Base Building: Erect a formidable fortress and strategically place defensive structures to protect your territory.</li>
 				<li>Monster Training: Discover and train an array of monstrous creatures with unique abilities and strengths.</li>
 				<li>Real-time Battles: Engage in thrilling PvP battles against players from around the world and prove your strategic prowess.</li>
@@ -100,10 +87,10 @@
 				<li>Campaign Mode: Embark on a solo adventure through challenging missions and unlock exclusive rewards.</li>
 				<li>Regular Updates: Enjoy a continuously evolving game with new features, monsters, and events.</li>
 			</ul>
-			<p class="mt-4 text-center text-gray-600 text-4xl lg:text-base">
+			<p class="mt-4 text-center text-gray-600 text-xl lg:text-base">
 				Frontyard Monsters combines nostalgia with cutting-edge gameplay, ensuring an exciting experience for both new and veteran players. Unleash your inner tactician, build an unbeatable army, and rise to the top of the leaderboard!
 			</p>
-			<p class="mt-4 text-center text-gray-600 text-4xl lg:text-base">
+			<p class="mt-4 text-center text-gray-600 text-xl lg:text-base">
 				Join the Frontyard Monsters community today and embark on an unforgettable journey into a world of strategy, chaos, and conquest. <a href="https://fym.danielbeltejar.es" class="text-blue-500 underline" target="_blank" rel="noopener noreferrer">Play now</a> and prove yourself as the ultimate monster master!
 			</p>
 		</div>
@@ -111,21 +98,21 @@
 	<footer class="bg-gray-300 py-4">
 		<div class="container mx-auto px-4">
 			<div class="flex justify-center items-center">
-				<p class="text-gray-600 text-2xl lg:text-sm">
+				<p class="text-gray-600 text-l lg:text-sm">
 					&copy; 2023 Frontyard Monsters. All rights reserved.
 				</p>
 				<div class="ml-4">
-					<a href="https://discord.gg/QPVYzpVC" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800 text-4xl lg:text-base">
+					<a href="https://discord.gg/QPVYzpVC" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800 text-l lg:text-base">
 						Discord
 					</a>
 				</div>
 				<div class="ml-4">
-					<a href="https://github.com/danielbeltejar" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800 text-4xl lg:text-base">
+					<a href="https://github.com/danielbeltejar" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800 text-l lg:text-base">
 						GitHub
 					</a>
 				</div>
 				<div class="ml-4">
-					<a href="https://github.com/danielbeltejar?tab=repositories&q=frontyardmonsters&type=&language=&sort=" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800 text-4xl lg:text-base">
+					<a href="https://github.com/danielbeltejar?tab=repositories&q=frontyardmonsters&type=&language=&sort=" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-800 text-l lg:text-base">
 						Frontyard Monsters on GitHub
 					</a>
 				</div>

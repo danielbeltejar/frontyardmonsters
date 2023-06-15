@@ -46,7 +46,12 @@
 <body class="bg-gray-200">
 	<header class="header flex justify-between items-center bg-gray-300 py-4 px-8 lg:pl-96 lg:pr-96">
 		<div class="flex items-center">
-			<img src="assets/images/logo_artwork_letters.png" alt="Logo" class="h-24">
+			<picture>
+				<source srcset="assets/images/logo_artwork_letters.avif" type="image/avif">
+				<source srcset="assets/images/logo_artwork_letters.webp" type="image/webp">
+				<source srcset="assets/images/logo_artwork_letters.png" type="image/png">
+				<img src="assets/images/logo_artwork_letters.png" alt="Logo" class="h-24">
+			</picture>
 		</div>
 		<div class="flex items-center">
 			<a href="https://discord.gg/RDAh9gwG2H">
@@ -59,7 +64,12 @@
 	</header>
 	<div class="container mx-auto py-8 px-4 mt-10 flex justify-center relative">
 		<a href="https://app.fym.danielbeltejar.es/" target="_blank">
-			<img class="blur-sm" src="assets/images/thumbnail.jpg" alt="Blurred Image">
+			<picture>
+				<source srcset="assets/images/thumbnail.avif" type="image/avif">
+				<source srcset="assets/images/thumbnail.webp" type="image/webp">
+				<source srcset="assets/images/thumbnail.jpg" type="image/jpeg">
+				<img class="blur-sm" src="assets/images/thumbnail.jpg" alt="Blurred Image">
+			</picture>
 			<div class="absolute inset-0 flex justify-center items-center">
 				<img class="" src="assets/images/play_button_128px.png" alt="Overlay Image">
 			</div>

@@ -6,36 +6,7 @@
 	<title>Play Frontyard Monsters</title>
 	<link rel="icon" type="image/webp" href="/assets/images/icon.webp">
 	<link rel="icon" type="image/png" href="/assets/images/icon.png">
-	<script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/gh/duyplus/fontawesome-pro/css/all.min.css" rel="stylesheet"/>
-	<style>
-		.bg-button {
-			background-image: url('assets/images/button_stone_small.png');
-			background-size: cover;
-		}
-
-		.unity-game {
-			position: relative;
-			width: 100%;
-			/*padding-top: 56.25%; /* 16:9 aspect ratio (height/width) */
-			padding-top: 75%;
-		}
-
-		.unity-game iframe {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-
-		@media (max-width: 768px) {
-			.unity-game {
-				padding-top: 75%; /* 4:3 aspect ratio for smaller screens */
-			}
-		}
-
-	</style>
+	<link rel="stylesheet" href="style.css">
 	<script type="text/javascript">
 		(function(c,l,a,r,i,t,y){
 			c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -45,7 +16,7 @@
 	</script>
 </head>
 <body class="bg-gray-200">
-	<header class="header flex justify-between items-center bg-gray-300 py-4 px-8 lg:pl-96 lg:pr-96">
+	<header class="header flex justify-between items-center bg-gray-300 py-4 px-8 md:pl-48 md:pr-48 xl:pl-96 xl:pr-96">
 		<div class="flex items-center">
 			<picture>
 				<source srcset="assets/images/logo_artwork_letters.avif" type="image/avif">
@@ -60,9 +31,9 @@
 		</div>
 		<div class="flex items-center">
 			<a href="https://discord.gg/RDAh9gwG2H">
-				<button class="bg-purple-600 text-white font-bold py-2 px-5 mr-2 rounded text-l lg:text-base">
-					<i class="fa-brands fa-discord"></i>
-					<span>Discord</span>
+				<button class="flex flex-row bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-5 mr-2 rounded text-l lg:text-base items-center">
+					<img src = "assets/images/discord-mark-white.svg" alt="Discord Logo" class="h-4"/>
+					<p class="ml-2">Discord</p>
 				</button>
 			</a>		
 		</div>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://fym.danielbeltejar.es/index.html</loc>
+        <lastmod>2023-06-16T11:44:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://fym.danielbeltejar.es/login.html</loc>
+        <lastmod>2023-05-18T10:11:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://fym.danielbeltejar.es/register.html</loc>
+        <lastmod>2023-05-18T10:11:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

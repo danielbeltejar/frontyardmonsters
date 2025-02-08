@@ -24,4 +24,4 @@ spec:
   tls:
     - hosts:
         - {{ .Values.ingressHost}}
-      secretName: letsencrypt
+      secretName: letsencrypt-app
